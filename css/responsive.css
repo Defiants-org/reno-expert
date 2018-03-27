@@ -1,0 +1,1673 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet Layout: 768px. ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .mainmenu-area #primary-menu > ul > li > a {
+        padding: 30px 12px;
+    }
+    .header-area {
+        padding-top: 80px;
+    }
+    .price-table,
+    .box {
+        padding: 30px 15px;
+    }
+    .price-table.active {
+        padding: 50px 15px;
+    }
+    .single-team {
+        margin-bottom: 30px
+    }
+    .side-icon-boxes {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+
+
+    /* badkamer ///////////////////////////////////////////////////////*/
+
+    #feature-page {
+        padding: 70px 0 70px 0;
+        width: 100%;
+        outline: none !important;
+    }
+
+    #feature-page .row {
+    margin-top: 10px;
+}
+
+    #feature-page .col-md-8  {
+        padding: 35px 0 0 0;
+    }
+
+    #feature-page p  {
+        color: #fff;
+        font-weight: 300;
+        font-size: 17px;
+        margin: 20px 20px 70px 25px;
+        text-align: justify;
+    }
+
+     #feature-page .img1   {
+        font-size: 18px;
+        margin-top: 20px;
+
+    }
+
+     #feature-page .img2  {
+        font-size: 18px;
+        margin-top: 20px;
+
+      }
+
+    #feature-page .img3   {
+        font-size: 18px;
+        margin-top: 50px;
+      }
+
+      #feature-page .p1 {
+
+      margin-top: -38px;
+
+       }
+
+      #feature-page .p2 {
+
+      margin-top: -39px;
+
+      }
+
+      #feature-page .p3 {
+
+      margin-top: -8px;
+
+      }
+
+
+      .social-menu {
+        list-style: none;
+        margin: 0;
+        padding: 0 0 0 0 ;
+      }
+
+
+      .side-icon-boxes {
+
+          color: #000 !important;
+          font-family: 'Bahnschrift', sans-serif;
+          font-weight: 300;
+          font-size: 20px;
+          margin-top: 0;
+          margin-bottom:;
+      }
+
+      .side-icon-box {
+          margin-bottom: 30px;
+          position: relative;
+          padding-right: 0px;
+          padding-left: 0;
+      }
+
+      .form-double input {
+          width: 100%;
+          color:#000;
+      }
+
+      textarea {
+          overflow: auto;
+          padding: 50px 234px;
+      }
+
+      .footer-top {
+    margin-bottom: 50px;
+}
+
+
+            .sd1 {
+                margin-top: 100px;
+                right: 100px;
+            }
+
+            .sd2 {
+                margin-top: 100px;
+                left: 50px;
+            }
+
+            .social-menu {
+                list-style: none;
+                margin: 0;
+                padding: 0px 0px 0 0 ;
+            }
+
+            .social-menu li {
+                display: inline-block;
+                margin: 0 3px;
+            }
+
+            .social-menu li a {
+                display: block;
+                width: 80px;
+                height: 80px;
+                text-align: center;
+                line-height: 2.5em;
+                background-color: #fff;
+                color: #000;
+                border-radius: 100px;
+                -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+                box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+                font-size: 40px;
+            }
+
+            .social-menu li a:hover {
+                background-color: #000;
+                color: #fff;
+                -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+                box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+            }
+
+            .form-double input {
+                width: 100%;
+                color:#000;
+            }
+
+            textarea {
+                overflow: auto;
+                padding: 50px 72px;
+            }
+
+
+      /* FAQ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+      #faq-page h1 {
+
+        margin-left: 40px;
+
+
+      }
+
+      #faq-page h3 {
+
+        font-weight: 350;
+        font-size: 20px;
+        margin-right: 40px;
+        margin-left: 40px;
+        text-align: justify;
+
+      }
+
+      #faq-page p {
+
+        font-weight: 300;
+        font-size: 15px;
+        margin-right: 40px;
+        margin-left: 40px;
+        text-align: justify;
+
+      }
+
+
+}
+
+
+
+/* tablet: 768px. ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media only screen and (min-width : 425px) and (max-width : 768px) {
+
+
+  /* nav. */
+
+  .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+      margin-right: -15px;
+      margin-left: -15px;
+      padding-bottom: 20px !important;
+  }
+
+  .mainmenu-area .navbar-toggle {
+      margin-top: 20px;
+  }
+  .mainmenu-area .navbar-toggle .icon-bar {
+      background-color: #ffffff;
+  }
+
+    .navbar-brand {
+       width: 60%;
+    }
+
+    .navbar-brand > img {
+      display: block;
+      margin-left: 50px;
+  }
+
+    .navbar-header, .navbar-collapse {
+     background-color: #000
+    }
+
+    .mainmenu-area {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    z-index: 9999999;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+    /* header /////////////////////////////////////////////////////*/
+
+
+
+    .header-area {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      height: auto;
+      margin-top: 75px;
+      /* to change bg img in media query use online root */
+      background: #000000 url('http://res.cloudinary.com/liberationfront/image/upload/v1520587700/mq_bg_tdxpyl.jpg')no-repeat scroll center center / cover;
+      z-index: 2;
+
+
+
+      }
+
+
+      header img {
+          margin: 20px 5px 20px 200px;
+          width: 40%;
+          margin-bottom: 50px;
+      }
+
+
+  .header-text .button {
+      margin: 0 0 0 20px;
+  }
+
+  .header-text {
+      background-color: rgba(84,84,84,0.3);
+      color: #000;
+      margin-top: -30px;
+      padding-bottom: 25px;
+      margin-right: -30px;
+  }
+
+
+
+  .bahn1 {
+  position: relative;
+  margin: -50px 0 30px 0;
+  top: 65px;
+  left: 220px;
+  font-family: 'Bahnschrift', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #fff;
+
+        }
+
+        .h3 {
+          position: relative;
+          top: 65px;
+          left: 220px;
+          font-family: 'Bahnschrift', sans-serif;
+          font-weight: 300;
+          font-size: 20px;
+          color: #fff;
+      }
+
+      .bahn2 {
+        position: relative;
+          margin: 50px 0 30px 0;
+          top: 0px;
+          left: 25px;
+          padding-right: 50px;
+          font-family: 'Bahnschrift', sans-serif;
+          font-weight: 310;
+          font-size: 15px;
+          color: #fff;
+
+        }
+
+        .anlge-bg {
+
+      z-index: 2;
+  }
+
+      /* service section ///////////////////////////////////////////////////////*/
+
+      .services {
+      background-color: #ffffff;
+      margin-top: -0px;
+      padding-bottom: 50px;
+  }
+
+      .diamond-narrow {
+        width: 0;
+        height: 0;
+        border: 500px solid transparent;
+        border-bottom: 751px solid #ac1410ff;
+        position: relative;
+        left: -500px;
+        top: -950px;
+        opacity: 0.7;
+        z-index: -1;
+      }
+      .diamond-narrow:after {
+        content: '';
+        position: absolute;
+        left: -500px;
+        top: 750px;
+        width: 0;
+        height: 0;
+        border: 500px solid transparent;
+        border-top: 750px solid #ac1410ff;
+        z-index: -1;
+      }
+
+    .h1-strategie, .h1-marketing, .h1-design, .h1-ux, .h1-acc, .h1-dev {
+     position: relative;
+     top: 215px;
+     left: 25px;
+     font-family: 'Bahnschrift', sans-serif;
+     font-weight: 300;
+     font-size: 30px;
+     text-transform: uppercase;
+     color: #000;
+    }
+
+    .p-strategie, .p-marketing, .p-design, .p-ux, .p-acc, .p-dev {
+     position: relative;
+     margin: 25px 0 50px 0;
+     top: 200px;
+     left: 50px;
+     padding-right: 75px;
+     font-family: 'Bahnschrift', sans-serif;
+     font-weight: 300;
+     font-size: 15px;
+     color: #000;
+     text-align: justify;
+    }
+
+    .services .button {
+        margin: 200px 0 0 50px;
+    }
+
+    .sc5 a {
+        padding: 15px 65px;
+    }
+
+    /* badkamer ///////////////////////////////////////////////////////*/
+
+    #feature-page {
+        padding: 70px 0 70px 0;
+        width: 100%;
+        outline: none !important;
+    }
+
+    #feature-page .col-md-8  {
+        padding: 35px 0 0 0;
+    }
+
+    #feature-page p  {
+        color: #fff;
+        font-weight: 300;
+        font-size: 15px;
+        margin: 0 25px 40px 25px;
+        text-align: justify;
+    }
+
+    #feature-page .kutija1 p {
+      color: #fff;
+      font-weight: 300;
+      font-size: 15px;
+      margin: 0 25px 40px 0px;
+      text-align: justify;
+      margin-left: 25px !important;
+    }
+
+    #feature-page .row {
+      margin-top: 5px;
+  }
+
+  #feature-page .img1   {
+     font-size: 18px;
+     margin-top: 20px;
+     margin-left: 40px;
+     width: 95%;
+
+  }
+
+  #feature-page .img2  {
+     font-size: 18px;
+     margin-top: 20px;
+     margin-left: 40px;
+     width: 95%;
+
+   }
+
+  #feature-page .img3   {
+     font-size: 18px;
+     margin-top: 50px;
+     margin-left: 40px;
+     width: 95%;
+   }
+
+  #feature-page .p1 {
+
+  margin-top: 10px;
+  margin: 0 35px 0 30px
+
+  }
+
+  #feature-page .p2 {
+
+  margin-top: 10px;
+    margin: 0 35px 0 30px
+
+  }
+
+  #feature-page .p3 {
+
+  margin-top: 10px;
+    margin: 0 35px 0 30px
+
+  }
+
+      .side-icon-boxes {
+
+          color: #000 !important;
+          font-family: 'Bahnschrift', sans-serif;
+          font-weight: 300;
+          font-size: 20px;
+          margin-top: 20px;
+          margin-bottom:;
+      }
+
+
+      .sd1 {
+
+          right: 100px;
+      }
+
+      .sd2 {
+
+          left: 50px;
+      }
+
+  .footer-top {
+      margin-bottom: 0;
+  }
+
+  .footer-middle {
+      margin-bottom: 0;
+  }
+
+  .footer-bottom p {
+  margin-bottom: 0;
+
+  color: #fff;
+
+  }
+
+  .social-menu {
+      list-style: none;
+      margin: 0;
+      padding: 10px 60px 0 0 ;
+  }
+
+  .social-menu li {
+      display: inline-block;
+      margin: 0 3px;
+  }
+
+  .social-menu li a {
+      display: block;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      line-height: 2.5em;
+      background-color: #fff;
+      color: #000;
+      border-radius: 100px;
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+      font-size: 25px;
+  }
+
+  .social-menu li a:hover {
+      background-color: #000;
+      color: #fff;
+      -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .form-double input {
+      width: 100%;
+      color:#000;
+  }
+
+  textarea {
+      overflow: auto;
+      padding: 50px 72px;
+  }
+
+  /* Faq ///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+  #faq-page h1 {
+
+    margin-left: 40px;
+
+
+  }
+
+  #faq-page h3 {
+
+    font-weight: 350;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: justify;
+
+  }
+
+  #faq-page p {
+
+    font-weight: 300;
+    font-size: 15px;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: justify;
+
+  }
+
+
+
+}
+
+
+/* Mobile Layout: max-width: 425px. ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media only screen and (min-width : 375px) and (max-width : 425px) {
+
+/* nav. */
+
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 20px !important;
+}
+
+.mainmenu-area .navbar-toggle {
+    margin-top: 20px;
+}
+.mainmenu-area .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+  .navbar-brand {
+     width: 60%;
+  }
+
+  .navbar-brand > img {
+    display: block;
+    margin-left: 50px;
+}
+
+  .navbar-header, .navbar-collapse {
+   background-color: #000
+  }
+
+  /* header /////////////////////////////////////////////////////*/
+
+
+
+  .header-area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    margin-top: 75px;
+    /* to change bg img in media query use online root */
+    background: #000000 url('http://res.cloudinary.com/liberationfront/image/upload/v1520587700/mq_bg_tdxpyl.jpg')no-repeat scroll center center / cover;
+    z-index: 2;
+
+
+    }
+
+
+    header img {
+        margin: 20px 5px 20px 80px;
+        width: 60%;
+        margin-bottom: 50px;
+    }
+
+
+.header-text .button {
+    margin: 0 0 0 20px;
+}
+
+.header-text {
+    background-color: rgba(84,84,84,0.3);
+    color: #000;
+    margin-top: -30px;
+    padding-bottom: 25px;
+    margin-right: -30px;
+}
+
+
+
+.bahn1 {
+position: relative;
+margin: -50px 0 30px 0;
+top: 65px;
+left: 70px;
+font-family: 'Bahnschrift', sans-serif;
+font-weight: 300;
+font-size: 25px;
+text-transform: uppercase;
+color: #fff;
+
+      }
+
+      .h3 {
+        position: relative;
+        top: 65px;
+        left: 70px;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .bahn2 {
+      position: relative;
+        margin: 50px 0 30px 0;
+        top: 0px;
+        left: 25px;
+        padding-right: 50px;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 310;
+        font-size: 15px;
+        color: #fff;
+
+      }
+
+      .anlge-bg {
+
+    z-index: 2;
+}
+
+    /* service section ///////////////////////////////////////////////////////*/
+
+    .services {
+    background-color: #ffffff;
+    margin-top: -0px;
+    padding-bottom: 50px;
+}
+
+    .diamond-narrow {
+      width: 0;
+      height: 0;
+      border: 500px solid transparent;
+      border-bottom: 751px solid #ac1410ff;
+      position: relative;
+      left: -500px;
+      top: -950px;
+      opacity: 0.7;
+      z-index: -1;
+    }
+    .diamond-narrow:after {
+      content: '';
+      position: absolute;
+      left: -500px;
+      top: 750px;
+      width: 0;
+      height: 0;
+      border: 500px solid transparent;
+      border-top: 750px solid #ac1410ff;
+      z-index: -1;
+    }
+
+  .h1-strategie, .h1-marketing, .h1-design, .h1-ux, .h1-acc, .h1-dev {
+   position: relative;
+   top: 215px;
+   left: 25px;
+   font-family: 'Bahnschrift', sans-serif;
+   font-weight: 300;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: #000;
+  }
+
+  .p-strategie, .p-marketing, .p-design, .p-ux, .p-acc, .p-dev {
+   position: relative;
+   margin: 25px 0 50px 0;
+   top: 200px;
+   left: 50px;
+   padding-right: 75px;
+   font-family: 'Bahnschrift', sans-serif;
+   font-weight: 300;
+   font-size: 15px;
+   color: #000;
+   text-align: justify;
+  }
+
+  .services .button {
+      margin: 200px 0 0 50px;
+  }
+
+  .sc5 a {
+      padding: 15px 65px;
+  }
+
+  /* badkamer ///////////////////////////////////////////////////////*/
+
+  #feature-page {
+      padding: 70px 0 70px 0;
+      width: 100%;
+      outline: none !important;
+  }
+
+  #feature-page .col-md-8  {
+      padding: 35px 0 0 0;
+  }
+
+  #feature-page p  {
+      color: #fff;
+      font-weight: 300;
+      font-size: 15px;
+      margin: 0 25px 40px 25px;
+      text-align: justify;
+  }
+
+  #feature-page .kutija1 p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0 25px 40px 0px;
+    text-align: justify;
+    margin-left: 25px !important;
+  }
+
+  #feature-page .row {
+    margin-top: 5px;
+}
+#feature-page .img1   {
+   font-size: 18px;
+   margin-top: 20px;
+   margin-left: 10px;
+   width: 95%;
+
+}
+
+#feature-page .img2  {
+   font-size: 18px;
+   margin-top: 20px;
+   margin-left: 10px;
+   width: 95%;
+
+ }
+
+#feature-page .img3   {
+   font-size: 18px;
+   margin-top: 50px;
+   margin-left: 10px;
+   width: 95%;
+ }
+
+#feature-page .p1 {
+
+margin-top: 10px;
+
+}
+
+#feature-page .p2 {
+
+margin-top: 10px;
+
+}
+
+#feature-page .p3 {
+
+margin-top: 10px;
+
+}
+
+    .side-icon-boxes {
+
+        color: #000 !important;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom:;
+    }
+
+
+
+.footer-top {
+    margin-bottom: 0;
+}
+
+.footer-middle {
+    margin-bottom: 0;
+}
+
+.footer-bottom p {
+margin-bottom: 0;
+
+color: #fff;
+
+}
+
+.sd1 {
+
+    right: 0px;
+}
+
+.sd2 {
+
+    left: 0px;
+}
+
+.social-menu {
+    list-style: none;
+    margin: 0;
+    padding: 10px 185px 0 0 ;
+}
+
+.social-menu li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.social-menu li a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 2.5em;
+    background-color: #000;
+    color: #fff;
+    border-radius: 100px;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+}
+
+.social-menu li a:hover {
+    background-color: #fff;
+    color: #000;
+    -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-double input {
+    width: 100%;
+    color:#000;
+}
+
+textarea {
+    overflow: auto;
+    padding: 50px 72px;
+}
+
+/* Faq ///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+#faq-page h1 {
+
+  margin-left: 40px;
+
+
+}
+
+#faq-page h3 {
+
+  font-weight: 350;
+  font-size: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-align: justify;
+
+}
+
+#faq-page p {
+
+  font-weight: 300;
+  font-size: 15px;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-align: justify;
+
+}
+
+
+}
+
+/* Mobile Layout: max-width: 375px. /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+
+/* nav. ///////////////////////////////////////////////////////////////*/
+
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 20px !important;
+}
+
+.mainmenu-area .navbar-toggle {
+    margin-top: 20px;
+}
+.mainmenu-area .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+  .navbar-brand {
+     width: 60%;
+  }
+
+  .navbar-brand > img {
+    display: block;
+    margin-left: 50px;
+}
+
+  .navbar-header, .navbar-collapse {
+   background-color: #000
+  }
+
+  /* header /////////////////////////////////////////////////////*/
+
+
+
+  .header-area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    margin-top: 75px;
+    /* to change bg img in media query use online root */
+    background: #000000 url('http://res.cloudinary.com/liberationfront/image/upload/v1520587700/mq_bg_tdxpyl.jpg')no-repeat scroll center center / cover;
+    z-index: 2;
+
+
+    }
+
+
+    header img {
+        margin: 20px 5px 20px 40px;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+
+.header-text .button {
+    margin: 0 0 0 20px;
+}
+
+.header-text {
+    background-color: rgba(84,84,84,0.3);
+    color: #000;
+    margin-top: -30px;
+    padding-bottom: 25px;
+    margin-right: -30px;
+}
+
+
+
+.bahn1 {
+position: relative;
+margin: -50px 0 30px 0;
+top: 65px;
+left: 40px;
+font-family: 'Bahnschrift', sans-serif;
+font-weight: 300;
+font-size: 25px;
+text-transform: uppercase;
+color: #fff;
+
+      }
+
+      .h3 {
+        position: relative;
+        top: 65px;
+        left: 40px;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .bahn2 {
+      position: relative;
+        margin: 50px 0 30px 0;
+        top: 0px;
+        left: 25px;
+        padding-right: 50px;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 310;
+        font-size: 15px;
+        color: #fff;
+
+      }
+
+      .anlge-bg {
+
+    z-index: 2;
+}
+
+    /* service section ///////////////////////////////////////////////////////*/
+
+    .services {
+    background-color: #ffffff;
+    margin-top: -0px;
+    padding-bottom: 50px;
+}
+
+    .diamond-narrow {
+      width: 0;
+      height: 0;
+      border: 500px solid transparent;
+      border-bottom: 751px solid #ac1410ff;
+      position: relative;
+      left: -500px;
+      top: -950px;
+      opacity: 0.7;
+      z-index: -1;
+    }
+    .diamond-narrow:after {
+      content: '';
+      position: absolute;
+      left: -500px;
+      top: 750px;
+      width: 0;
+      height: 0;
+      border: 500px solid transparent;
+      border-top: 750px solid #ac1410ff;
+      z-index: -1;
+    }
+
+  .h1-strategie, .h1-marketing, .h1-design, .h1-ux, .h1-acc, .h1-dev {
+   position: relative;
+   top: 215px;
+   left: 25px;
+   font-family: 'Bahnschrift', sans-serif;
+   font-weight: 300;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: #000;
+  }
+
+  .p-strategie, .p-marketing, .p-design, .p-ux, .p-acc, .p-dev {
+   position: relative;
+   margin: 25px 0 50px 0;
+   top: 200px;
+   left: 50px;
+   padding-right: 75px;
+   font-family: 'Bahnschrift', sans-serif;
+   font-weight: 300;
+   font-size: 15px;
+   color: #000;
+   text-align: justify;
+  }
+
+  .services .button {
+      margin: 200px 0 0 50px;
+  }
+
+  .sc5 a {
+      padding: 15px 65px;
+  }
+
+  /* badkamer ///////////////////////////////////////////////////////*/
+
+  #feature-page {
+      padding: 70px 0 70px 0;
+      width: 100%;
+      outline: none !important;
+  }
+
+  #feature-page .col-md-8  {
+      padding: 35px 0 0 0;
+  }
+
+  #feature-page p  {
+      color: #fff;
+      font-weight: 300;
+      font-size: 15px;
+      margin: 0 25px 40px 25px;
+      text-align: justify;
+  }
+
+  #feature-page .kutija1 p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0 25px 40px 0px;
+    text-align: justify;
+    margin-left: 25px !important;
+  }
+
+  #feature-page .row {
+    margin-top: 5px;
+}
+
+#feature-page .img1   {
+   font-size: 18px;
+   margin-top: 20px;
+    margin-left: 10px;
+   width: 95%;
+
+}
+
+#feature-page .img2  {
+   font-size: 18px;
+   margin-top: 20px;
+     margin-left: 10px;
+width: 95%;
+ }
+
+#feature-page .img3   {
+   font-size: 18px;
+   margin-top: 50px;
+      margin-left: 10px;
+   width: 95%;
+ }
+
+#feature-page .p1 {
+
+margin-top: 10px;
+
+}
+
+#feature-page .p2 {
+
+margin-top: 10px;
+
+}
+
+#feature-page .p3 {
+
+margin-top: 10px;
+
+}
+
+    .side-icon-boxes {
+
+        color: #000 !important;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom:;
+    }
+
+
+
+.footer-top {
+    margin-bottom: 0;
+}
+
+.footer-middle {
+    margin-bottom: 0;
+}
+
+.footer-bottom p {
+margin-bottom: -6px;
+
+color: #fff;
+
+}
+
+.social-menu {
+    list-style: none;
+    margin: 0;
+    padding: 10px 160px 0 0 ;
+}
+
+.social-menu li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.social-menu li a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 2.5em;
+    background-color: #000;
+    color: #fff;
+    border-radius: 100px;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+}
+
+.social-menu li a:hover {
+    background-color: #fff;
+    color: #000;
+    -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-double input {
+    width: 100%;
+    color:#000;
+}
+
+textarea {
+    overflow: auto;
+    padding: 50px 72px;
+}
+
+
+/* Faq ///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+#faq-page h1 {
+
+  margin-left: 30px;
+
+
+}
+
+#faq-page h3 {
+
+  font-weight: 350;
+  font-size: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  text-align: justify;
+
+}
+
+#faq-page p {
+
+  font-weight: 300;
+  font-size: 15px;
+  margin-right: 30px;
+  margin-left: 30px;
+  text-align: justify;
+
+}
+
+}
+
+
+
+/* Mobile Layout: max-width: 320px. ///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+@media only screen and (max-width : 320px) {
+
+/* nav. */
+
+
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 20px !important;
+}
+
+.mainmenu-area .navbar-toggle {
+    margin-top: 20px;
+}
+.mainmenu-area .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+  .navbar-brand {
+     width: 60%;
+  }
+
+  .navbar-brand > img {
+    display: block;
+    margin-left: 50px;
+}
+
+  .navbar-header, .navbar-collapse {
+   background-color: #000
+  }
+
+  /* header /////////////////////////////////////////////////////*/
+
+
+
+  .header-area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    margin-top: 75px;
+    /* to change bg img in media query use online root */
+    background: #000000 url('http://res.cloudinary.com/liberationfront/image/upload/v1520587700/mq_bg_tdxpyl.jpg')no-repeat scroll center center / cover;
+    z-index: 2;
+
+
+    }
+
+
+    header img {
+        margin: 20px 5px 20px 30px;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+
+.header-text .button {
+    margin: 0 0 0 20px;
+}
+
+.header-text {
+    background-color: rgba(84,84,84,0.3);
+    color: #000;
+    margin-top: -30px;
+    padding-bottom: 25px;
+    margin-right: -30px;
+}
+
+
+
+.bahn1 {
+position: relative;
+margin: -50px 0 30px 0;
+top: 65px;
+left: 15px;
+font-family: 'Bahnschrift', sans-serif;
+font-weight: 300;
+font-size: 25px;
+text-transform: uppercase;
+color: #fff;
+
+      }
+
+      .h3 {
+        position: relative;
+        top: 65px;
+        left: 10px;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .bahn2 {
+      position: relative;
+        margin: 50px 0 30px 0;
+        top: 0px;
+        left: 25px;
+        padding-right: 50px;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 310;
+        font-size: 15px;
+        color: #fff;
+
+      }
+
+      .anlge-bg {
+
+    z-index: 2;
+}
+
+    /* service section ///////////////////////////////////////////////////////*/
+
+    .services {
+    background-color: #ffffff;
+    margin-top: -0px;
+    padding-bottom: 50px;
+}
+
+    .diamond-narrow {
+      width: 0;
+      height: 0;
+      border: 500px solid transpaac1410ffrent;
+      border-bottom: 751px solid #ac1410ff;
+      position: relative;
+      left: -500px;
+      top: -950px;
+      opacity: 0.7;
+      z-index: -1;
+    }
+    .diamond-narrow:after {
+      content: '';
+      position: absolute;
+      left: -500px;
+      top: 750px;
+      width: 0;
+      height: 0;
+      border: 500px solid transparent;
+      border-top: 750px solid #ac1410ff;
+      z-index: -1;
+    }
+
+  .h1-strategie, .h1-marketing, .h1-design, .h1-ux, .h1-acc, .h1-dev {
+   position: relative;
+   top: 215px;
+   left: 25px;
+   font-family: 'Bahnschrift', sans-serif;
+   font-weight: 300;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: #000;
+  }
+
+  .p-strategie, .p-marketing, .p-design, .p-ux, .p-acc, .p-dev {
+   position: relative;
+   margin: 25px 0 50px 0;
+   top: 200px;
+   left: 50px;
+   padding-right: 75px;
+   font-family: 'Bahnschrift', sans-serif;
+   font-weight: 300;
+   font-size: 15px;
+   color: #000;
+   text-align: justify;
+  }
+
+  .services .button {
+      margin: 200px 0 0 50px;
+  }
+
+  .sc5 a {
+      padding: 15px 65px;
+  }
+
+  /* badkamer ///////////////////////////////////////////////////////*/
+
+  #feature-page {
+      padding: 70px 0 70px 0;
+      width: 100%;
+      outline: none !important;
+  }
+
+  #feature-page .col-md-8  {
+      padding: 35px 0 0 0;
+  }
+
+  #feature-page p  {
+      color: #fff;
+      font-weight: 300;
+      font-size: 15px;
+      margin: 0 25px 40px 25px;
+      text-align: justify;
+  }
+
+  #feature-page .kutija1 p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0 25px 40px 0px;
+    text-align: justify;
+    margin-left: 25px !important;
+  }
+
+  #feature-page .row {
+    margin-top: 5px;
+}
+
+#feature-page .img1   {
+   font-size: 18px;
+   margin-top: 20px;
+   margin-left: 10px;
+   width: 95%;
+
+}
+
+#feature-page .img2  {
+   font-size: 18px;
+   margin-top: 20px;
+   margin-left: 10px;
+   width: 95%;
+
+ }
+
+#feature-page .img3   {
+   font-size: 18px;
+   margin-top: 50px;
+   margin-left: 10px;
+   width: 95%;
+ }
+
+#feature-page .p1 {
+
+margin-top: 10px;
+
+}
+
+#feature-page .p2 {
+
+margin-top: 10px;
+
+}
+
+#feature-page .p3 {
+
+margin-top: 10px;
+
+}
+
+
+    .side-icon-boxes {
+
+        color: #000 !important;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom:;
+    }
+
+    .sd1 {
+
+        right: 0px;
+    }
+
+    .sd2 {
+
+        left: 0px;
+    }
+
+.footer-top {
+    margin-bottom: 0;
+}
+
+.footer-middle {
+    margin-bottom: 0;
+}
+
+.footer-bottom p {
+margin-bottom: -6px;
+
+color: #fff;
+
+}
+
+.social-menu {
+    list-style: none;
+    margin: 0;
+    padding: 10px 120px 0 0 ;
+}
+
+.social-menu li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.social-menu li a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 2.5em;
+    background-color: #000;
+    color: #fff;
+    border-radius: 100px;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+}
+
+.social-menu li a:hover {
+    background-color: #fff;
+    color: #000;
+    -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-double input {
+    width: 100%;
+    color:#000;
+}
+
+textarea {
+    overflow: auto;
+    padding: 50px 72px;
+}
+
+#faq-page h1 {
+
+  margin-left: 30px;
+
+
+}
+
+#faq-page h3 {
+
+  font-weight: 350;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 30px;
+  text-align: justify;
+
+}
+
+#faq-page p {
+
+  font-weight: 300;
+  font-size: 15px;
+  margin-right: 20px;
+  margin-left: 30px;
+  text-align: justify;
+
+}
+
+
+}
