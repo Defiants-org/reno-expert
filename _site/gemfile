@@ -1,17 +1,3 @@
-# ---------------------------------------------------------------------------- #
-#    1) copy plugins to config:
-#  - jekyll-seo-tag
-#  - jekyll-sitemap
-#
-#    2) make gemfile in root and add the below:
-#   source 'https://rubygems.org'   (this is important for bundle install)
-#   gem 'jekyll-seo-tag'
-#   gem 'jekyll-sitemap'
-#
-#   3)  In command of project type: "bundle install" & then "bundle update"
-# ---------------------------------------------------------------------------- #
-
-source 'https://rubygems.org'
-
-gem 'jekyll-seo-tag'
-gem 'jekyll-sitemap'
+source 'https://rubygems.org'   
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-sitemap'
