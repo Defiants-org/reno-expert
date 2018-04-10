@@ -33,6 +33,11 @@
         justify-content: space-between;
     }
 
+    .navbar-brand > img {
+    display: block;
+    margin-left: 50px;
+}
+
 
 
     /* feature ///////////////////////////////////////////////////////*/
@@ -175,6 +180,11 @@ margin-top: 0px;
       background-color: #fff;
       color: #000;
   }
+
+  .navbar-brand > img {
+    display: block;
+    margin-left: 50px;
+}
 
 /* nav. ////////////////////////////////////////////////////////*/
 
@@ -529,6 +539,11 @@ margin-right: 10px;
  padding-bottom: 15px;
 }
 
+.navbar-brand > img {
+    display: block;
+    margin-left: 50px;
+}
+
 /* header /////////////////////////////////////////////////////*/
 
 
@@ -843,7 +858,14 @@ text-align: justify;
  padding-bottom: 15px;
 }
 
+.navbar-brand > img {
+    display: block;
+    margin-left: 50px;
+}
+
 /* header /////////////////////////////////////////////////////*/
+
+
 
 
 .header-area {
@@ -1159,6 +1181,11 @@ text-align: justify;
    background-color: #000;
    padding-bottom: 15px;
   }
+
+  .navbar-brand > img {
+    display: block;
+    margin-left: 50px;
+}
 
   /* header /////////////////////////////////////////////////////*/
 
