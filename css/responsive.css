@@ -35,7 +35,7 @@
 
 
 
-    /* badkamer ///////////////////////////////////////////////////////*/
+    /* feature ///////////////////////////////////////////////////////*/
 
     #feature-page {
         padding: 70px 0 70px 0;
@@ -72,6 +72,26 @@
         margin-top: 50px;
       }
 
+      #feature-page .p1 {
+
+      margin-top: -20px;
+
+       }
+
+      #feature-page .p2 {
+
+      margin-top: -20px;
+
+      }
+
+      #feature-page .p3 {
+
+      margin-top: 10px;
+
+      }
+
+
+/* footer ////////////////////////////////*/
 
       .social-menu {
         list-style: none;
@@ -86,9 +106,15 @@
           font-family: 'Bahnschrift', sans-serif;
           font-weight: 300;
           font-size: 20px;
-          margin-top: 0;
-          margin-bottom:;
+          margin-top: 150px;
+          margin-bottom: -40px;
       }
+
+      #contact-page .sd1 {
+margin-top: 0px;
+      margin-right: 200px;
+      }
+
 
       .side-icon-box {
           margin-bottom: 30px;
@@ -135,6 +161,7 @@
 }
 
 
+
 }
 
 
@@ -151,299 +178,17 @@
 
 /* nav. ////////////////////////////////////////////////////////*/
 
-  .mainmenu-area {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 9999999;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    overflow: hidden;
-  }
-
-  .mainmenu-area .navbar-toggle {
-      margin-top: 20px;
-  }
-  .mainmenu-area .navbar-toggle .icon-bar {
-      background-color: #ffffff;
-  }
-  .mainmenu-area {
-background-color: #000;
-  }
-  .mainmenu-area #primary-menu ul {
-      overflow-y: auto;
-      max-height: 70vh;
-      margin: 0;
-  }
-  .mainmenu-area #primary-menu > ul > li > a {
-      padding: 15px;
-      overflow: hidden;
-  }
-  .box {
-      padding: 30px 15px;
-  }
-  .box .box-icon {
-      height: auto;
-  }
-  .single-blog,
-  .single-team,
-  .price-table.active {
-      margin-top: 30px;
-  }
-  .form-double input {
-      width: 100%;
-      color:#000;
-  }
-
-  .footer-top {
-      margin-bottom: 50px;
-  }
-  .x-left {
-      text-align:;
-  }
-  .mainmenu-area .logo {
-      margin-left: 15px;
-  }
-
-  .navbar-brand {
-     width: 60%;
-  }
-
-  .navbar-header, .navbar-collapse {
-   background-color: #000
-  }
-
-    .navbar-brand > img {
-      display: block;
-      margin-left: 45px;
-  }
-
-
-  /* header ///////////////////////////////////////////////////////////////*/
-
-  .header-area {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    height: auto;
-    margin-top: 85px;
-  }
-
-    .header-text .button {
-        margin: 0 0 0 20px;
-    }
-
-    .header-text  {
-  padding: 40px 10px 0 20px;
-
-  }
-
-  .bahn1 {
-      position: relative;
-      margin: 25px 0 30px 0;
-      top: 50px;
-      left: 20px;
-      font-family: 'Bahnschrift', sans-serif;
-      font-weight: 300;
-      font-size: 32px;
-      text-transform: uppercase;
-      color: #fff;
-    }
-
-  .bahn2 {
-    position: relative;
-      margin: 50px 0 30px 0;
-      top: 30px;
-      left: 25px;
-      padding-right: 75px;
-      font-family: 'Bahnschrift', sans-serif;
-      font-weight: 300;
-      font-size: 17px;
-      color: #fff;
-    }
-
-  /* service secttion///////////////////////////////////////////////////////////*/
-
-  .h1-strategie, .h1-marketing, .h1-design, .h1-ux, .h1-acc, .h1-dev {
-  position: relative;
-  top: 215px;
-  left: 25px;
-  font-family: 'Bahnschrift', sans-serif;
-  font-weight: 300;
-  font-size: 30px;
-  text-transform: uppercase;
-  color: #000;
-  }
-
-  .p-strategie, .p-marketing, .p-design, .p-ux, .p-acc, .p-dev {
-  position: relative;
-  margin: 25px 0 50px 0;
-  top: 200px;
-  left: 50px;
-  padding-right: 75px;
-  font-family: 'Bahnschrift', sans-serif;
-  font-weight: 300;
+.mainmenu-area {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999999;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   font-size: 15px;
-  color: #000;
-  }
-
-  .services .button {
-      margin: 200px 0 0 50px;
-  }
-
-  .sc5 a {
-      padding: 25px 75px;
-  }
-
-  /* badkamer ///////////////////////////////////////////////////////*/
-
-  #feature-page {
-      padding: 70px 0 70px 0;
-      width: 100%;
-      outline: none !important;
-  }
-
-  #feature-page .col-md-8  {
-      padding: 35px 0 0 0;
-  }
-
-  #feature-page p  {
-      color: #fff;
-      font-weight: 300;
-      font-size: 15px;
-      margin: 0 100px 40px 25px;
-      text-align: justify;
-  }
-
-   #feature-page .img1   {
-      font-size: 18px;
-      margin-top: 20px;
-
-  }
-
-   #feature-page .img2  {
-      font-size: 18px;
-      margin-top: 20px;
-
-    }
-
-  #feature-page .img3   {
-      font-size: 18px;
-      margin-top: 50px;
-    }
-
-
-      .side-icon-boxes {
-
-          color: #000 !important;
-          font-family: 'Bahnschrift', sans-serif;
-          font-weight: 300;
-          font-size: 20px;
-          margin-top: 100px;
-          margin-bottom:;
-      }
-
-      .side-icon-box {
-          margin-bottom: 30px;
-          position: relative;
-          padding-right: 120px;
-          padding-left: 50px;
-      }
-
-
-    .footer-top {
-      margin-bottom: 0;
-    }
-
-    .footer-middle {
-      margin-bottom: 0;
-    }
-
-    .footer-bottom p {
-
-    color: #000;
-
-    }
-
-    .social-menu {
-      list-style: none;
-      margin: 0;
-      padding: 10px 100px 0 0 ;
-    }
-
-    .social-menu li {
-      display: inline-block;
-      margin: 0 3px;
-    }
-
-    .social-menu li a {
-      display: block;
-      width: 60px;
-      height: 60px;
-      text-align: center;
-      line-height: 2.5em;
-      background-color: #000;
-      color: #fff;
-      border-radius: 100px;
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
-      font-size: 25px;
-    }
-
-    .social-menu li a:hover {
-      background-color: #fff;
-      color: #000;
-      -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
-      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
-    }
-
-
-    textarea {
-        overflow: auto;
-        padding: 50px 286px;
-    }
-
-    /* Faq ///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-
-    #faq-page h1 {
-
-      margin-left: 40px;
-
-
-    }
-
-    #faq-page h3 {
-
-      font-weight: 350;
-      font-size: 20px;
-      margin-right: 40px;
-      margin-left: 40px;
-      text-align: justify;
-
-    }
-
-    #faq-page p {
-
-      font-weight: 300;
-      font-size: 15px;
-      margin-right: 40px;
-      margin-left: 40px;
-      text-align: justify;
-
-    }
-
-
-
+  overflow: hidden;
 }
-
-
-/* Mobile Layout: max-width: 425px. ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-
-@media only screen and (min-width : 375px) and (max-width : 425px) {
-
-/* nav. */
 
 .mainmenu-area .navbar-toggle {
     margin-top: 20px;
@@ -451,22 +196,45 @@ background-color: #000;
 .mainmenu-area .navbar-toggle .icon-bar {
     background-color: #ffffff;
 }
-
- .navbar-brand {
-    width: 60%;
- }
-
- .navbar-brand > img {
-   display: block;
-   margin-left: 60px;
+.mainmenu-area {
+background-color: #000;
+ padding-bottom: 35px;
+}
+.mainmenu-area #primary-menu ul {
+    overflow-y: auto;
+    max-height: 70vh;
+    margin: 0;
+}
+.mainmenu-area #primary-menu > ul > li > a {
+    padding: 15px;
+    overflow: hidden;
+}
+.box {
+    padding: 30px 15px;
+}
+.box .box-icon {
+    height: auto;
+}
+.single-blog,
+.single-team,
+.price-table.active {
+    margin-top: 30px;
+}
+.form-double input {
+    width: 100%;
+    color:#000;
 }
 
-.navbar-header, .navbar-collapse {
-  background-color: #000
+.footer-top {
+    margin-bottom: 50px;
+}
+.x-left {
+    text-align:;
 }
 
-  /* header /////////////////////////////////////////////////////////////*/
 
+
+/* header ///////////////////////////////////////////////////////////////*/
 
 .header-area {
   padding-top: 20px;
@@ -475,65 +243,84 @@ background-color: #000;
   margin-top: 85px;
 }
 
-.header-text .button {
-    margin: 0 0 0 20px;
-}
 
+  .header-area img {
+    margin: 30px 0 0 250px;
+    width: 30%;
+  }
 
-.header-text {
-  padding: 0 10px 0 20px;
-}
+  .header-text .button {
+      margin: 0 0 30px 40px;
+  }
+
+  .header-text{
+  background-color: rgba(84,84,84,0.4);
+  margin-top: 20px;
+  padding-bottom: 0px;
+  margin-right: 0px;
+  }
 
 .bahn1 {
-
     position: relative;
     margin: 25px 0 30px 0;
-    top: 50px;
-    left: 20px;
+    top: 0px;
+    left: 160px;
     font-family: 'Bahnschrift', sans-serif;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 40px;
     text-transform: uppercase;
+    color: #fff;
+  }
+
+
+  .h3{
+    position: relative;
+    top: 0px;
+    left: 200px;
+    font-family: 'Bahnschrift', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+
     color: #fff;
 
   }
+
 
 .bahn2 {
   position: relative;
-    margin: 50px 0 30px 0;
-    top: 30px;
-    left: 25px;
+    margin: 0px 0 30px 0;
+    top: 0px;
+    left: 40px;
     padding-right: 75px;
     font-family: 'Bahnschrift', sans-serif;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 17px;
     color: #fff;
-
   }
 
-    /* service section /////////////////////////////////////////////////////*/
+/* service secttion///////////////////////////////////////////////////////////*/
 
 .h1-strategie, .h1-marketing, .h1-design, .h1-ux, .h1-acc, .h1-dev {
-  position: relative;
-  top: 215px;
-  left: 50px;
-  font-family: 'Bahnschrift', sans-serif;
-  font-weight: 300;
-  font-size: 30px;
-  text-transform: uppercase;
-  color: #000;
+position: relative;
+top: 215px;
+left: 25px;
+font-family: 'Bahnschrift', sans-serif;
+font-weight: 300;
+font-size: 30px;
+text-transform: uppercase;
+color: #000;
 }
 
 .p-strategie, .p-marketing, .p-design, .p-ux, .p-acc, .p-dev {
-  position: relative;
-  margin: 25px 0 50px 0;
-  top: 200px;
-  left: 50px;
-  padding-right: 75px;
-  font-family: 'Bahnschrift', sans-serif;
-  font-weight: 300;
-  font-size: 15px;
-  color: #000;
+position: relative;
+margin: 25px 0 50px 0;
+top: 200px;
+left: 50px;
+padding-right: 75px;
+font-family: 'Bahnschrift', sans-serif;
+font-weight: 300;
+font-size: 15px;
+color: #000;
 }
 
 .services .button {
@@ -544,7 +331,7 @@ background-color: #000;
     padding: 25px 75px;
 }
 
-/* badkamer ///////////////////////////////////////////////////////*/
+/* feature ///////////////////////////////////////////////////////*/
 
 #feature-page {
     padding: 70px 0 70px 0;
@@ -557,11 +344,22 @@ background-color: #000;
 }
 
 #feature-page p  {
-    color: #fff;
-    font-weight: 300;
-    font-size: 15px;
-    margin: 0 25px 40px 25px;
-    text-align: justify;
+  color: #fff;
+  font-weight: 300;
+  font-size: 15px;
+  margin: 0px 105px 0px 20px;
+  text-align: justify;
+}
+
+#feature-page .kutija1 p  {
+
+  margin-right: 105px;
+  margin-left: 20px !important;
+
+}
+
+#feature-page .row {
+  margin-top: 20px;
 }
 
  #feature-page .img1   {
@@ -581,6 +379,354 @@ background-color: #000;
     margin-top: 50px;
   }
 
+  #feature-page .p1 {
+
+  margin-top: -15px;
+
+   }
+
+  #feature-page .p2 {
+
+  margin-top: -15px;
+
+  }
+
+  #feature-page .p3 {
+
+  margin-top: -15px;
+
+  }
+
+
+/* footer ///////////////////////////////////////////////////////*/
+
+
+.side-icon-boxes {
+
+    color: #000 !important;
+    font-family: 'Bahnschrift', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 150px;
+    margin-bottom:;
+}
+
+#contact-page .sd1 {
+margin-top: 0px;
+margin-right: 10px;
+}
+
+    .side-icon-box {
+        margin-bottom: 30px;
+        position: relative;
+        padding-right: 120px;
+        padding-left: 50px;
+    }
+
+
+  .footer-top {
+    margin-bottom: 0;
+  }
+
+  .footer-middle {
+    margin-bottom: 0;
+  }
+
+  .footer-bottom p {
+  color: #fff;
+  }
+
+  .social-menu {
+    list-style: none;
+    margin: 0;
+    padding: 10px 50px 0 0 ;
+  }
+
+  .social-menu li {
+    display: inline-block;
+    margin: 0 3px;
+  }
+
+  .social-menu li a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 2.5em;
+    background-color: #fff;
+    color: #000;
+    border-radius: 100px;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+  }
+
+  .social-menu li a:hover {
+    background-color: #fff;
+    color: #000;
+    -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+  }
+
+
+  textarea {
+      overflow: auto;
+      padding: 50px 286px;
+  }
+
+  /* Faq ///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+  #faq-page h1 {
+
+    margin-left: 40px;
+
+
+  }
+
+  #faq-page h3 {
+
+    font-weight: 350;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: justify;
+
+  }
+
+  #faq-page p {
+
+    font-weight: 300;
+    font-size: 15px;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: justify;
+
+  }
+
+
+}
+
+
+/* Mobile Layout: max-width: 425px. ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media only screen and (min-width : 375px) and (max-width : 425px) {
+
+/* nav. */
+
+/* nav. ///////////////////////////////////////////////////////////////*/
+
+.mainmenu-area .navbar-toggle {
+    margin-top: 20px;
+}
+.mainmenu-area .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.navbar-header, .navbar-collapse {
+ background-color: #000;
+ padding-bottom: 15px;
+}
+
+/* header /////////////////////////////////////////////////////*/
+
+
+.header-area {
+  background: #000000 url('http://res.cloudinary.com/liberationfront/image/upload/v1520587700/mq_bg_tdxpyl.jpg') no-repeat scroll center center / cover;
+  z-index: 2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  margin-top: 75px;
+}
+
+.header-area img {
+  margin: 30px 0 0 45px;
+  width: 80%;
+}
+
+.header-text .button {
+  margin: 0 0 30px 35px;
+}
+
+.header-text{
+background-color: rgba(84,84,84,0.4);
+margin-top: 20px;
+padding-bottom: 0px;
+margin-right: 0px;
+}
+
+.bahn1 {
+position: relative;
+margin: 0px 0 30px 0;
+top: 0px;
+left: 45px;
+font-family: 'Bahnschrift', sans-serif;
+font-weight: 300;
+font-size: 30px;
+text-transform: uppercase;
+color: #fff;
+
+    }
+
+    .h3{
+      position: relative;
+      top: 0px;
+      left: 35px;
+      font-family: 'Bahnschrift', sans-serif;
+      font-weight: 300;
+      font-size: 25px;
+
+      color: #fff;
+
+    }
+
+
+  .bahn2 {
+    position: relative;
+      margin: 0px 0 0px 0;
+      top: 0px;
+      left: 35px;
+      padding-right: 75px;
+      font-family: 'Bahnschrift', sans-serif;
+      font-weight: 300;
+      font-size: 15px;
+      color: #fff;
+
+    }
+
+    .anlge-bg {
+
+  z-index: 2;
+}
+
+  /* service section ///////////////////////////////////////////////////////*/
+
+  .diamond-narrow {
+    width: 0;
+    height: 0;
+    border: 500px solid transparent;
+    border-bottom: 751px solid #ac1410ff;
+    position: relative;
+    left: -500px;
+    top: -950px;
+    opacity: 0.7;
+    z-index: -1;
+  }
+  .diamond-narrow:after {
+    content: '';
+    position: absolute;
+    left: -500px;
+    top: 750px;
+    width: 0;
+    height: 0;
+    border: 500px solid transparent;
+    border-top: 750px solid #ac1410ff;
+    z-index: -1;
+  }
+
+.h1-strategie, .h1-marketing, .h1-design, .h1-ux, .h1-acc, .h1-dev {
+ position: relative;
+ top: 215px;
+ left: 25px;
+ font-family: 'Bahnschrift', sans-serif;
+ font-weight: 300;
+ font-size: 30px;
+ text-transform: uppercase;
+ color: #000;
+}
+
+.p-strategie, .p-marketing, .p-design, .p-ux, .p-acc, .p-dev {
+ position: relative;
+ margin: 25px 0 50px 0;
+ top: 200px;
+ left: 50px;
+ padding-right: 75px;
+ font-family: 'Bahnschrift', sans-serif;
+ font-weight: 300;
+ font-size: 15px;
+ color: #000;
+ text-align: justify;
+}
+
+.services .button {
+    margin: 200px 0 0 50px;
+}
+
+.sc5 a {
+    padding: 15px 65px;
+}
+
+/* feature ///////////////////////////////////////////////////////*/
+
+#feature-page {
+    padding: 70px 0 70px 0;
+    width: 100%;
+    outline: none !important;
+}
+
+#feature-page .col-md-8  {
+    padding: 35px 0 0 0;
+}
+
+#feature-page p  {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0 20px 0px 20px;
+    text-align: justify;
+}
+
+#feature-page .kutija1 p  {
+
+  margin-right: 20px;
+  margin-left: 20px !important;
+
+}
+
+#feature-page .row {
+  margin-top: 20px;
+}
+
+ #feature-page .img1   {
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+ #feature-page .img2  {
+    font-size: 18px;
+    margin-top: 20px;
+
+  }
+
+#feature-page .img3   {
+    font-size: 18px;
+    margin-top: 50px;
+  }
+
+  #feature-page .p1 {
+
+  margin-top: -15px;
+
+   }
+
+  #feature-page .p2 {
+
+  margin-top: -15px;
+
+  }
+
+  #feature-page .p3 {
+
+  margin-top: -15px;
+
+  }
+
+
+/* footer ///////////////////////////////////////////////////////*/
+
   .side-icon-boxes {
 
       color: #000 !important;
@@ -591,8 +737,6 @@ background-color: #000;
       margin-bottom:;
   }
 
-
-
 .footer-top {
   margin-bottom: 0;
 }
@@ -602,15 +746,14 @@ background-color: #000;
 }
 
 .footer-bottom p {
-
-color: #000;
-
+color: #fff;
+margin: -5px;
 }
 
 .social-menu {
   list-style: none;
   margin: 0;
-  padding: 10px 170px 0 0 ;
+  padding: 10px 190px 10px 0 ;
 }
 
 .social-menu li {
@@ -639,44 +782,43 @@ color: #000;
   box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
-
 .form-double input {
-    width: 100%;
-    color:#000;
+  width: 100%;
+  color:#000;
 }
 
 textarea {
-    overflow: auto;
-    padding: 50px 123px;
+  overflow: auto;
+  padding: 50px 72px;
 }
 
-/* Faq ///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* FAQ //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
 #faq-page h1 {
 
-  margin-left: 40px;
+margin-left: 30px;
 
 
 }
 
 #faq-page h3 {
 
-  font-weight: 350;
-  font-size: 20px;
-  margin-right: 40px;
-  margin-left: 40px;
-  text-align: justify;
+font-weight: 350;
+font-size: 20px;
+margin-right: 20px;
+margin-left: 30px;
+text-align: justify;
 
 }
 
 #faq-page p {
 
-  font-weight: 300;
-  font-size: 15px;
-  margin-right: 40px;
-  margin-left: 40px;
-  text-align: justify;
+font-weight: 300;
+font-size: 15px;
+margin-right: 20px;
+margin-left: 30px;
+text-align: justify;
 
 }
 
@@ -696,231 +838,301 @@ textarea {
     background-color: #ffffff;
 }
 
-.navbar-brand {
-   width: 60%;
-}
-
 .navbar-header, .navbar-collapse {
- background-color: #000
+ background-color: #000;
+ padding-bottom: 15px;
 }
 
+/* header /////////////////////////////////////////////////////*/
 
-  .navbar-brand > img {
-    display: block;
-    margin-left: 60px;
+
+.header-area {
+  background: #000000 url('http://res.cloudinary.com/liberationfront/image/upload/v1520587700/mq_bg_tdxpyl.jpg') no-repeat scroll center center / cover;
+  z-index: 2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  margin-top: 75px;
 }
 
-
-  /* header ////////////////////////////////////////////////////////////*/
-
-
-  .header-area {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    height: auto;
-    margin-top: 80px;
+.header-area img {
+  margin: 30px 0 0 30px;
+  width: 80%;
 }
 
 .header-text .button {
-    margin: 0 0 0 20px;
+  margin: 0 0 30px 35px;
 }
 
-  .header-text {
-    padding: 0 10px 0 20px;
+.header-text{
+background-color: rgba(84,84,84,0.4);
+margin-top: 20px;
+padding-bottom: 0px;
+margin-right: 0px;
 }
 
-    .bahn1 {
+.bahn1 {
+position: relative;
+margin: 25px 0 30px 0;
+top: 0px;
+left: 45px;
+font-family: 'Bahnschrift', sans-serif;
+font-weight: 300;
+font-size: 25px;
+text-transform: uppercase;
+color: #fff;
 
-        position: relative;
-        margin: 25px 0 30px 0;
-        top: 50px;
-        left: 10px;
-        font-family: 'Bahnschrift', sans-serif;
-        font-weight: 300;
-        font-size: 30px;
-        text-transform: uppercase;
-        color: #fff;
-
-      }
-
-    .bahn2 {
-      position: relative;
-        margin: 50px 0 30px 0;
-        top: 30px;
-        left: 25px;
-        padding-right: 75px;
-        font-family: 'Bahnschrift', sans-serif;
-        font-weight: 300;
-        font-size: 15px;
-        color: #fff;
-
-      }
-
-    /* service section ////////////////////////////////////////////////////*/
-
-    .h1-strategie, .h1-marketing, .h1-design, .h1-ux, .h1-acc, .h1-dev {
-      position: relative;
-      top: 215px;
-      left: 50px;
-      font-family: 'Bahnschrift', sans-serif;
-      font-weight: 300;
-      font-size: 30px;
-      text-transform: uppercase;
-      color: #000;
     }
 
-    .p-strategie, .p-marketing, .p-design, .p-ux, .p-acc, .p-dev {
+    .h3{
       position: relative;
-      margin: 25px 0 50px 0;
-      top: 200px;
-      left: 50px;
+      top: 0px;
+      left: 40px;
+      font-family: 'Bahnschrift', sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+
+      color: #fff;
+
+    }
+
+
+  .bahn2 {
+    position: relative;
+      margin: 0px 0 0px 0;
+      top: 0px;
+      left: 35px;
       padding-right: 75px;
       font-family: 'Bahnschrift', sans-serif;
       font-weight: 300;
       font-size: 15px;
-      color: #000;
-    }
-
-    .services .button {
-        margin: 200px 0 0 35px;
-    }
-
-    .sc5 a {
-        padding: 25px 75px;
-    }
-
-    /* badkamer ///////////////////////////////////////////////////////*/
-
-    #feature-page {
-        padding: 70px 0 70px 0;
-        width: 100%;
-        outline: none !important;
-    }
-
-    #feature-page .col-md-8  {
-        padding: 35px 0 0 0;
-    }
-
-    #feature-page p  {
-        color: #fff;
-        font-weight: 300;
-        font-size: 15px;
-        margin: 0 25px 40px 25px;
-        text-align: justify;
-    }
-
-     #feature-page .img1   {
-        font-size: 18px;
-        margin-top: 20px;
-
-    }
-
-     #feature-page .img2  {
-        font-size: 18px;
-        margin-top: 20px;
-
-      }
-
-    #feature-page .img3   {
-        font-size: 18px;
-        margin-top: 50px;
-      }
-
-      .side-icon-boxes {
-
-          color: #000 !important;
-          font-family: 'Bahnschrift', sans-serif;
-          font-weight: 300;
-          font-size: 20px;
-          margin-top: 100px;
-          margin-bottom:;
-      }
-
-
-
-    .footer-top {
-      margin-bottom: 0;
-    }
-
-    .footer-middle {
-      margin-bottom: 0;
-    }
-
-    .footer-bottom p {
-
-    color: #000;
-
-    }
-
-    .social-menu {
-      list-style: none;
-      margin: 0;
-      padding: 10px 150px 0 0 ;
-    }
-
-    .social-menu li {
-      display: inline-block;
-      margin: 0 3px;
-    }
-
-    .social-menu li a {
-      display: block;
-      width: 60px;
-      height: 60px;
-      text-align: center;
-      line-height: 2.5em;
-      background-color: #000;
       color: #fff;
-      border-radius: 100px;
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
-      font-size: 25px;
+
     }
 
-    .social-menu li a:hover {
-      background-color: #fff;
-      color: #000;
-      -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
-      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
-    }
+    .anlge-bg {
 
-    .form-double input {
-        width: 100%;
-        color:#000;
-    }
-
-    textarea {
-    overflow: auto;
-    padding: 50px 99px;
+  z-index: 2;
 }
 
-/* Faq ///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  /* service section ///////////////////////////////////////////////////////*/
+
+  .diamond-narrow {
+    width: 0;
+    height: 0;
+    border: 500px solid transparent;
+    border-bottom: 751px solid #ac1410ff;
+    position: relative;
+    left: -500px;
+    top: -950px;
+    opacity: 0.7;
+    z-index: -1;
+  }
+  .diamond-narrow:after {
+    content: '';
+    position: absolute;
+    left: -500px;
+    top: 750px;
+    width: 0;
+    height: 0;
+    border: 500px solid transparent;
+    border-top: 750px solid #ac1410ff;
+    z-index: -1;
+  }
+
+.h1-strategie, .h1-marketing, .h1-design, .h1-ux, .h1-acc, .h1-dev {
+ position: relative;
+ top: 215px;
+ left: 25px;
+ font-family: 'Bahnschrift', sans-serif;
+ font-weight: 300;
+ font-size: 30px;
+ text-transform: uppercase;
+ color: #000;
+}
+
+.p-strategie, .p-marketing, .p-design, .p-ux, .p-acc, .p-dev {
+ position: relative;
+ margin: 25px 0 50px 0;
+ top: 200px;
+ left: 50px;
+ padding-right: 75px;
+ font-family: 'Bahnschrift', sans-serif;
+ font-weight: 300;
+ font-size: 15px;
+ color: #000;
+ text-align: justify;
+}
+
+.services .button {
+    margin: 200px 0 0 50px;
+}
+
+.sc5 a {
+    padding: 15px 65px;
+}
+
+/* feature ///////////////////////////////////////////////////////*/
+
+#feature-page {
+    padding: 70px 0 70px 0;
+    width: 100%;
+    outline: none !important;
+}
+
+#feature-page .col-md-8  {
+    padding: 35px 0 0 0;
+}
+
+#feature-page p  {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0 20px 0px 20px;
+    text-align: justify;
+}
+
+#feature-page .kutija1 p  {
+
+  margin-right: 20px;
+  margin-left: 20px !important;
+
+}
+
+#feature-page .row {
+  margin-top: 20px;
+}
+
+ #feature-page .img1   {
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+ #feature-page .img2  {
+    font-size: 18px;
+    margin-top: 20px;
+
+  }
+
+#feature-page .img3   {
+    font-size: 18px;
+    margin-top: 50px;
+  }
+
+  #feature-page .p1 {
+
+  margin-top: -15px;
+
+   }
+
+  #feature-page .p2 {
+
+  margin-top: -15px;
+
+  }
+
+  #feature-page .p3 {
+
+  margin-top: -15px;
+
+  }
+
+
+/* footer ///////////////////////////////////////////////////////*/
+
+  .side-icon-boxes {
+
+      color: #000 !important;
+      font-family: 'Bahnschrift', sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      margin-top: 100px;
+      margin-bottom:;
+  }
+
+.footer-top {
+  margin-bottom: 0;
+}
+
+.footer-middle {
+  margin-bottom: 0;
+}
+
+.footer-bottom p {
+color: #fff;
+margin: -5px;
+}
+
+.social-menu {
+  list-style: none;
+  margin: 0;
+  padding: 10px 160px 0 0 ;
+}
+
+.social-menu li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.social-menu li a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 2.5em;
+  background-color: #000;
+  color: #fff;
+  border-radius: 100px;
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+  font-size: 25px;
+}
+
+.social-menu li a:hover {
+  background-color: #fff;
+  color: #000;
+  -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-double input {
+  width: 100%;
+  color:#000;
+}
+
+textarea {
+  overflow: auto;
+  padding: 50px 72px;
+}
+
+/* FAQ //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
 #faq-page h1 {
 
-  margin-left: 30px;
+margin-left: 30px;
 
 
 }
 
 #faq-page h3 {
 
-  font-weight: 350;
-  font-size: 20px;
-  margin-right: 30px;
-  margin-left: 30px;
-  text-align: justify;
+font-weight: 350;
+font-size: 20px;
+margin-right: 20px;
+margin-left: 30px;
+text-align: justify;
 
 }
 
 #faq-page p {
 
-  font-weight: 300;
-  font-size: 15px;
-  margin-right: 30px;
-  margin-left: 30px;
-  text-align: justify;
+font-weight: 300;
+font-size: 15px;
+margin-right: 20px;
+margin-left: 30px;
+text-align: justify;
 
 }
 
@@ -943,41 +1155,43 @@ textarea {
     background-color: #ffffff;
 }
 
-  .navbar-brand {
-     width: 60%;
-  }
-
-  .navbar-brand > img {
-    display: block;
-    margin-left: 50px;
-}
-
   .navbar-header, .navbar-collapse {
-   background-color: #000
+   background-color: #000;
+   padding-bottom: 15px;
   }
 
   /* header /////////////////////////////////////////////////////*/
 
+
   .header-area {
+    background: #000000 url('http://res.cloudinary.com/liberationfront/image/upload/v1520587700/mq_bg_tdxpyl.jpg') no-repeat scroll center center / cover;
+    z-index: 2;
     padding-top: 20px;
     padding-bottom: 20px;
     height: auto;
     margin-top: 75px;
 }
 
+.header-area img {
+    margin: 30px 0 0 30px;
+    width: 80%;
+}
+
 .header-text .button {
-    margin: 0 0 0 20px;
+    margin: 0 0 30px 35px;
 }
 
-  .header-text {
-    padding: 0 10px 0 20px;
+.header-text{
+background-color: rgba(84,84,84,0.4);
+margin-top: 20px;
+padding-bottom: 0px;
+margin-right: 0px;
 }
-
 
 .bahn1 {
 position: relative;
 margin: 25px 0 30px 0;
-top: 65px;
+top: 0px;
 left: 20px;
 font-family: 'Bahnschrift', sans-serif;
 font-weight: 300;
@@ -987,11 +1201,24 @@ color: #fff;
 
       }
 
+      .h3{
+        position: relative;
+        top: 0px;
+        left: 15px;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+
+        color: #fff;
+
+      }
+
+
     .bahn2 {
       position: relative;
-        margin: 50px 0 30px 0;
-        top: 30px;
-        left: 25px;
+        margin: 0px 0 0px 0;
+        top: 0px;
+        left: 35px;
         padding-right: 75px;
         font-family: 'Bahnschrift', sans-serif;
         font-weight: 300;
@@ -1011,7 +1238,7 @@ color: #fff;
       width: 0;
       height: 0;
       border: 500px solid transparent;
-      border-bottom: 751px solid #c8ab37ff;
+      border-bottom: 751px solid #ac1410ff;
       position: relative;
       left: -500px;
       top: -950px;
@@ -1026,7 +1253,7 @@ color: #fff;
       width: 0;
       height: 0;
       border: 500px solid transparent;
-      border-top: 750px solid #c8ab37ff;
+      border-top: 750px solid #ac1410ff;
       z-index: -1;
     }
 
@@ -1062,7 +1289,7 @@ color: #fff;
       padding: 15px 65px;
   }
 
-  /* badkamer ///////////////////////////////////////////////////////*/
+  /* feature ///////////////////////////////////////////////////////*/
 
   #feature-page {
       padding: 70px 0 70px 0;
@@ -1078,9 +1305,20 @@ color: #fff;
       color: #fff;
       font-weight: 300;
       font-size: 15px;
-      margin: 0 25px 40px 25px;
+      margin: 0 20px 0px 20px;
       text-align: justify;
   }
+
+  #feature-page .kutija1 p  {
+
+    margin-right: 20px;
+    margin-left: 20px !important;
+
+}
+
+#feature-page .row {
+    margin-top: 20px;
+}
 
    #feature-page .img1   {
       font-size: 18px;
@@ -1099,6 +1337,27 @@ color: #fff;
       margin-top: 50px;
     }
 
+    #feature-page .p1 {
+
+    margin-top: -15px;
+
+     }
+
+    #feature-page .p2 {
+
+    margin-top: -15px;
+
+    }
+
+    #feature-page .p3 {
+
+    margin-top: -15px;
+
+    }
+
+
+/* footer ///////////////////////////////////////////////////////*/
+
     .side-icon-boxes {
 
         color: #000 !important;
@@ -1109,8 +1368,6 @@ color: #fff;
         margin-bottom:;
     }
 
-
-
 .footer-top {
     margin-bottom: 0;
 }
@@ -1120,9 +1377,8 @@ color: #fff;
 }
 
 .footer-bottom p {
-
-color: #000;
-
+color: #fff;
+margin: -5px;
 }
 
 .social-menu {
@@ -1166,6 +1422,9 @@ textarea {
     overflow: auto;
     padding: 50px 72px;
 }
+
+/* FAQ //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 
 #faq-page h1 {
 
